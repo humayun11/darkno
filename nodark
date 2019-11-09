@@ -42,7 +42,7 @@ sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
-br.addheaders = [('User-Agent', 'Mozilla/5.0 (Android; AppleWebKit/537.36 U; id) Chrome/78.0.3904.90 Mobile Safari/537.36')]
+br.addheaders = [('User-Agent', 'Mozilla/5.0 (Linux; Android 5.1.1; A37f); AppleWebKit/537.36 (KHTML, like Gecko); Chrome/78.0.3904.90 Mobile Safari/537.36')]
 
 
 def keluar():
